@@ -8,6 +8,8 @@ finish-args:
   - --socket=fallback-x11
   - --device=dri
   - --socket=wayland
+  - --filesystem=host
+  - --filesystem=xdg-run/gvfsd
 cleanup:
   - /include
   - /lib/pkgconfig
@@ -42,4 +44,4 @@ modules:
     sources:
       - type: git
         url: https://github.com/Dzheremi2/Lexi
-        commit: 33df70827e1280f995b6fb359cd11e1b211651f2
+        commit: b3f39fb6b73966e4575e22c14bc21c3b7207179e
