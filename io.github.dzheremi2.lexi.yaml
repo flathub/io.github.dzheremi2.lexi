@@ -44,4 +44,4 @@ modules:
     sources:
       - type: git
         url: https://github.com/Dzheremi2/Lexi
-        commit: 63287bf220f7af9766ca2ade2b1cf6ff74b178ac
+        commit: b104e5e460dd9fccbbaead97ea38a10a43be0031
